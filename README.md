@@ -1,7 +1,7 @@
 mct
 ===
 
-"Mass Control Tycoon" a GPL game using node-webkit
+"Mass Control Tycoon" a GPL game using node-webkit for Windows, Mac and Linux.
 
 Current status:
 - Concept developement
