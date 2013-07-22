@@ -16,3 +16,5 @@ Game profiles:
 - IndieDB http://goo.gl/wV73g
 - Facebook http://goo.gl/OYgI10
 - Twitter http://goo.gl/KEebl2
+
+Free job positions ad: http://goo.gl/XZgzi
