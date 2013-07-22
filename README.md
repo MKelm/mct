@@ -14,3 +14,5 @@ Please note if you want to download/use the package: The binary folder contains 
 Game profiles:
 - Steam Greenlight http://goo.gl/GrkRGg
 - IndieDB http://goo.gl/wV73g
+- Facebook http://goo.gl/OYgI10
+- Twitter http://goo.gl/KEebl2
