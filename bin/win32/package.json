@@ -1,10 +1,10 @@
 ﻿{
-  "name": "Mss Control Tycoon",
+  "name": "Mass Control Tycoon",
   "main": "../../lib/display/default.html",
   "window":{
     "toolbar":false,
     "icon":"../../lib/display/gfx/logo.png",
-    "fullscreen":false,
+    "fullscreen":true,
     "frame":true,
     "min_width":1024,
     "min_height":768
