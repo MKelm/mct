@@ -1,0 +1,46 @@
+{
+  "layers" : [
+    {
+      "color" : "0xFFFF00",
+      "size" : { "width" : 1024, "height" : 600 },
+      "border" : { "size" : 4, "color" : "0xFF0000" },
+      "title" : {
+        "align" : "left",
+        "padding" : { "top" : 10, "left" : 10 },
+        "textStyle" : "planetcompaniestitle1",
+        "text" : ["titles", 0]
+      },
+      "menus" : {
+        "top" : {
+          "left" : [
+            {
+              "padding" : { "top" : 10, "left" : 10 },
+              "textStyle" : "planetcompaniesmenu1",
+              "buttons" : [
+                {
+                  "text" : ["technologyfieldstype"],
+                  "action" : "displayPopupLayerByButton",
+                  "targetLayer" : 1
+                },
+                {
+                  "text" : ["technologyfieldstypes"],
+                  "action" : "displayPopupLayerByButton",
+                  "targetLayer" : 2
+                }
+              ]
+            }
+          ]
+        },
+        "bottom" : {
+          "right" : [
+            {
+              "padding" : { "bottom" : 10, "right" : 10 },
+              "textStyle" : "planetcompaniesmenu1",
+              "buttons" : [ { "text" : "lt00005", "action" : "displayPopupClose" } ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
