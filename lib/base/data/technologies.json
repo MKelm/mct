@@ -1,33 +1,33 @@
-// this is a json file with comments, you have to add all changes to the nc file too!
-// each technology fields can contain different technology types
-// each type has a different costs amount which is a share of the default research costs value
-// the the default research costs and the share amount generates the default research costs for TL1
-// each field can contain companies for each "type" or for all "types"
 {
   "development" : {
     "research" : {
       "points" : {
         "start" : 0,
-        "step" : 1000 // research points for each step, base value which increases with higher TL
+        "step" : 1000
       },
       "costs" : {
-        "step" : 500 // base value for research costs, technology fields / types have a own costs factor
+        "step" : 500
       }
     }
   },
-  "fields" : { // defintion of technology fields
+  "fields" : {
     "hardware" : {
+      "title" : "lt01000",
       "types" : {
-        "tel" : { // telephone
+        "tel" : {
+          "title" : "lt01010",
           "costs" : 0.9
         },
-        "net" : { // net infrastructure
+        "net" : {
+          "title" : "lt01011",
           "costs" : 0.93
         },
-        "com" : { // computer
+        "com" : {
+          "title" : "lt01012",
           "costs" : 0.97
         },
-        "sat" : { // satellite / space
+        "sat" : {
+          "title" : "lt01013",
           "costs" : 1.0
         }
       },
@@ -37,14 +37,18 @@
       }
     },
     "software" : {
+      "title" : "lt01001",
       "types" : {
-        "anl" : { // analysis
+        "anl" : {
+          "title" : "lt01020",
           "costs" : 0.77
         },
-        "sec" : { // security
+        "sec" : {
+          "title" : "lt01021",
           "costs" : 0.82
         },
-        "int" : { // intelligence agency
+        "int" : {
+          "title" : "lt01022",
           "costs" : 0.85
         }
       },
@@ -54,14 +58,18 @@
       }
     },
     "advertisments" : {
+      "title" : "lt01002",
       "types" : {
-        "aco" : { // acoustic
+        "aco" : {
+          "title" : "lt01030",
           "costs" : 0.64
         },
-        "vis" : { // visual
+        "vis" : {
+          "title" : "lt01031",
           "costs" : 0.67
         },
-        "tho" : { // thoughs
+        "tho" : {
+          "title" : "lt01032",
           "costs" : 0.72
         }
       },
@@ -71,14 +79,18 @@
       }
     },
     "drugs" : {
+      "title" : "lt01003",
       "types" : {
-        "moo" : { // mood variations
+        "moo" : {
+          "title" : "lt01040",
           "costs" : 0.5
         },
-        "hal" : { // halluzinations
+        "hal" : {
+          "title" : "lt01041",
           "costs" : 0.54
         },
-        "aha" : { // acoustic halluzinations
+        "aha" : {
+          "title" : "lt01042",
           "costs" : 0.58
         }
       },

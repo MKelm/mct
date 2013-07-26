@@ -1,5 +1,24 @@
 {
   "lt00001" : "Mass Control Tycoon",
   "lt00002" : "Start",
-  "lt00003" : "Quit"
+  "lt00003" : "Quit",
+  "lt01000" : "Hardware",
+  "lt01001" : "Software",
+  "lt01002" : "Advertisments",
+  "lt01003" : "Drugs",
+  "lt01010" : "Telephone",
+  "lt01011" : "Net infrastructure",
+  "lt01012" : "Computer",
+  "lt01013" : "Satellites/Space",
+  "lt01020" : "Analysis",
+  "lt01021" : "Security",
+  "lt01022" : "Intelligence Agencies",
+  "lt01030" : "Acoustic",
+  "lt01031" : "Visual",
+  "lt01032" : "Thoughts",
+  "lt01040" : "Mood",
+  "lt01041" : "Hallucinations",
+  "lt01042" : "Acoustic halluc.",
+  "lt05000" : "Earth",
+  "lt05001" : "Anuka"
 }
