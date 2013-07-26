@@ -1,0 +1,86 @@
+{
+  "development" : {
+    "research" : {
+      "points" : {
+        "start" : 0,
+        "step" : 1000
+      },
+      "costs" : {
+        "step" : 500
+      }
+    }
+  },
+  "fields" : {
+    "hardware" : {
+      "types" : {
+        "tel" : {
+          "costs" : 0.9
+        },
+        "net" : {
+          "costs" : 0.93
+        },
+        "com" : {
+          "costs" : 0.97
+        },
+        "sat" : {
+          "costs" : 1.0
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "type"
+      }
+    },
+    "software" : {
+      "types" : {
+        "anl" : {
+          "costs" : 0.77
+        },
+        "sec" : {
+          "costs" : 0.82
+        },
+        "int" : {
+          "costs" : 0.85
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "type"
+      }
+    },
+    "advertisments" : {
+      "types" : {
+        "aco" : {
+          "costs" : 0.64
+        },
+        "vis" : {
+          "costs" : 0.67
+        },
+        "tho" : {
+          "costs" : 0.72
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "types"
+      }
+    },
+    "drugs" : {
+      "types" : {
+        "moo" : {
+          "costs" : 0.5
+        },
+        "hal" : {
+          "costs" : 0.54
+        },
+        "aha" : {
+          "costs" : 0.58
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "types"
+      }
+    }
+  }
+}

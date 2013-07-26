@@ -1,0 +1,91 @@
+// this is a json file with comments, you have to add all changes to the nc file too!
+// each technology fields can contain different technology types
+// each type has a different costs amount which is a share of the default research costs value
+// the the default research costs and the share amount generates the default research costs for TL1
+// each field can contain companies for each "type" or for all "types"
+{
+  "development" : {
+    "research" : {
+      "points" : {
+        "start" : 0,
+        "step" : 1000 // research points for each step, base value which increases with higher TL
+      },
+      "costs" : {
+        "step" : 500 // base value for research costs, technology fields / types have a own costs factor
+      }
+    }
+  },
+  "fields" : { // defintion of technology fields
+    "hardware" : {
+      "types" : {
+        "tel" : { // telephone
+          "costs" : 0.9
+        },
+        "net" : { // net infrastructure
+          "costs" : 0.93
+        },
+        "com" : { // computer
+          "costs" : 0.97
+        },
+        "sat" : { // satellite / space
+          "costs" : 1.0
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "type"
+      }
+    },
+    "software" : {
+      "types" : {
+        "anl" : { // analysis
+          "costs" : 0.77
+        },
+        "sec" : { // security
+          "costs" : 0.82
+        },
+        "int" : { // intelligence agency
+          "costs" : 0.85
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "type"
+      }
+    },
+    "advertisments" : {
+      "types" : {
+        "aco" : { // acoustic
+          "costs" : 0.64
+        },
+        "vis" : { // visual
+          "costs" : 0.67
+        },
+        "tho" : { // thoughs
+          "costs" : 0.72
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "types"
+      }
+    },
+    "drugs" : {
+      "types" : {
+        "moo" : { // mood variations
+          "costs" : 0.5
+        },
+        "hal" : { // halluzinations
+          "costs" : 0.54
+        },
+        "aha" : { // acoustic halluzinations
+          "costs" : 0.58
+        }
+      },
+      "companies" : {
+        "amount" : 50,
+        "for" : "types"
+      }
+    }
+  }
+}
