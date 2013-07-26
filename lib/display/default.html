@@ -28,6 +28,12 @@
             padding: 0;
             background-color: #000000;
         }
+        #audioObject {
+          position: absolute;
+          bottom: 2px;
+          right: 2px;
+          display: block;
+        }
     </style>
     <script src="../external/jquery.js"></script>
     <script src="../external/pixi.js"></script>
@@ -40,5 +46,15 @@
 </head>
 <body>
     <script src="init.js"></script>
+    <audio controls autoplay loop id="audioObject">
+      <source src="../sound/Amusia - Orbit (Awakening).ogg" type="audio/ogg">
+    </audio>
+    <script language="javascript">
+      $("#audioObject").fadeTo(7500, 0);
+      $("#audioObject").mouseover(function() { $("#audioObject").fadeTo("fast", 1); });
+      $("#audioObject").mouseout(function() { $("#audioObject").fadeTo("fast", 0); });
+
+
+    </script>
 </body>
 </html>
