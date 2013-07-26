@@ -1,8 +1,8 @@
-All Mass Control Tycoon game files should contain a copyright header with a license statement for GPLv3. 
+Mass Control Tycoon game files are licensed unter the GPLv3. The files should contain a license statement for GPLv3.
 In some files comments are not possible. The GPLv3 license text is located in the GPL file.
 
-The node-webkit engine, jQuery and pixi.js use MIT licenses which are compatible with the GPLv3. 
+The node-webkit engine, jQuery and pixi.js use MIT licenses which are compatible with the GPLv3.
 External libraries with other licenses have to be compatible with the GPLv3.
 
-Some image folders and the sound folder might contain a Creative Commons license, e.g. the images/web folder. 
+Some image folders and the sound folder might contain a Creative Commons license, e.g. the images/web folder.
 Note: The CC 3.0 license is incompatible with functional game content.
