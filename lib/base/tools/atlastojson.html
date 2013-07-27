@@ -45,24 +45,6 @@
     <script language="javascript">
       $("#ai").bind('paste', function () {
         setTimeout(function () {
-          /*var meta = '"meta": {'+
-            '"app": "http://www.texturepacker.com",'+
-            '"version": "1.0",'+
-            '"image": "spineboy.png",'
-            '"format": "RGBA8888",'+
-            '"size": {'+
-            '"w": 1512,'+
-            '"h": 1000'+
-            '},'+
-            '"scale": 1'+
-            '}';
-
-          var img = new Image();
-          img.onload = function() {
-            alert(this.width + 'x' + this.height);
-          }
-          img.src = 'http://www.google.com/intl/en_ALL/images/logo.gif';*/
-
           var meta = {
             base : '"app": "http://www.texturepacker.com",'+'"version": "1.0",'+'"scale": 1,'+
               '"size": { "w": ' + $('#ssw').val() + ', "h": ' + $('#ssh').val() + ' },'
@@ -148,7 +130,7 @@
             }
           }
           out = out + ' } }';
-console.log(out);
+
           $('#jo').val(out);
         }, 100);
       });
