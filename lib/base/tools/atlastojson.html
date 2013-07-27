@@ -1,0 +1,157 @@
+<!--
+ * This file is a tool to convert atlas files by spine to json texture packer compatible files.
+ * @copyright 2013 by Martin Kelm - All rights reserved.
+ * @link https://github.com/mkelm/mct
+ * @author Martin Kelm
+ *
+ * This tool is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ *
+ * This tool is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this tool. If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>atlas to JSON</title>
+    <style>
+        body {
+          color : #fff;
+          background-color: #000000;
+        }
+        textarea {
+          width: 800px;
+          height: 300px;
+        }
+    </style>
+    <script src="../../external/jquery.js"></script>
+</head>
+<body>
+    <strong>convert spine atlas files to texture packer json files, by <a href="https://github.com/MKelm/mct" />Martin Kelm</a></strong><br />
+    <strong>sprite sheet width:</strong><input type="text" id="ssw" /><br />
+    <strong>sprite sheet height:</strong><input type="text" id="ssh" /><br />
+    <strong>altas input:</strong><br />
+    <textarea id="ai"> </textarea>
+    <hr />
+    <strong>JSON output:</strong><br />
+    <textarea id="jo">...</textarea>
+    <script language="javascript">
+      $("#ai").bind('paste', function () {
+        setTimeout(function () {
+          /*var meta = '"meta": {'+
+            '"app": "http://www.texturepacker.com",'+
+            '"version": "1.0",'+
+            '"image": "spineboy.png",'
+            '"format": "RGBA8888",'+
+            '"size": {'+
+            '"w": 1512,'+
+            '"h": 1000'+
+            '},'+
+            '"scale": 1'+
+            '}';
+
+          var img = new Image();
+          img.onload = function() {
+            alert(this.width + 'x' + this.height);
+          }
+          img.src = 'http://www.google.com/intl/en_ALL/images/logo.gif';*/
+
+          var meta = {
+            base : '"app": "http://www.texturepacker.com",'+'"version": "1.0",'+'"scale": 1,'+
+              '"size": { "w": ' + $('#ssw').val() + ', "h": ' + $('#ssh').val() + ' },'
+          };
+          var frames = [];
+
+          var text = $("#ai").val();
+          var lines = text.split("\n");
+          var elemCount = 0;
+          var currentFrame = null;
+          $.each(lines, function(n, elem) {
+             if ($.trim(elem).length > 0) {
+               if (elemCount == 0) {
+                 meta.image = $.trim(elem);
+               } else if (elemCount == 1) {
+                 meta.format = $.trim(elem).substring(8, $.trim(elem).length);
+               }
+               if (elemCount > 3) {
+                 if ((elemCount - 4) % 7 == 0) {
+                   if (currentFrame != null) {
+                     frames.push(currentFrame);
+                   }
+                   currentFrame = {
+                     name: $.trim(elem)
+                   };
+                 } else {
+                   var text = $.trim(elem).split(" ");
+                   if ((elemCount - 4) % 7 == 1) {
+                     currentFrame.rotated = text[1];
+                   } else if ((elemCount - 4) % 7 == 2) {
+                     currentFrame.position = {
+                       x : Number(text[1].replace(",", "")),
+                       y : Number(text[2])
+                     };
+                   } else if ((elemCount - 4) % 7 == 3) {
+                     currentFrame.size = {
+                       w : Number(text[1].replace(",", "")),
+                       h : Number(text[2])
+                     }
+                   } else if ((elemCount - 4) % 7 == 4) {
+                     currentFrame.sourceSize = {
+                       w : Number(text[1].replace(",", "")),
+                       h : Number(text[2])
+                     }
+                   } else if ((elemCount - 4) % 7 == 5) {
+                     currentFrame.sourceOffset = {
+                       x : Number(text[1].replace(",", "")),
+                       y : Number(text[2])
+                     }
+                   } else if ((elemCount - 4) % 7 == 6) {
+                     // index not supported
+                   }
+                 }
+               }
+               elemCount++;
+             }
+
+          });
+
+          var out = '{ "meta": {';
+
+          for (var p in meta) {
+            if (p == "base") {
+              out = out + meta[p];
+            } if (p == "image") {
+              out = out + '"image": "' + meta[p] + '",';
+            } if (p == "format") {
+              out = out + '"format": "' + meta[p] + '",';
+            }
+          }
+          out = out.substring(0, out.length - 1) + ' },';
+
+          out = out + ' "frames": {';
+          for (var i = 0; i < frames.length; i++) {
+            out = out + ' "' + frames[i].name + '": { "frame": { "x": '+ frames[i].position.x +', '+
+              '"y": '+ frames[i].position.y + ', "w": '+ frames[i].size.w + ', "h": '+ frames[i].size.h + ' }, ' +
+              '"rotated": '+ frames[i].rotated + ', "trimmed": false, "spriteSourceSize": { '+
+              '"x": '+ frames[i].sourceOffset.x +', "y": '+ frames[i].sourceOffset.y + ', "w": '+
+              frames[i].size.w + ', "h": ' + frames[i].size.h + ' }, "sourceSize": { '+
+              '"w": '+ frames[i].size.w + ', "h": '+ frames[i].size.h + '} }';
+            if (i < frames.length - 1) {
+              out = out + ',';
+            }
+          }
+          out = out + ' } }';
+console.log(out);
+          $('#jo').val(out);
+        }, 100);
+      });
+    </script>
+</body>
+</html>
