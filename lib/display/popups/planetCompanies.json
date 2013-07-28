@@ -6,7 +6,7 @@
       "border" : { "size" : 4, "color" : "0xFF0000" },
       "title" : {
         "align" : "left",
-        "padding" : { "top" : 10, "left" : 10 },
+        "padding" : { "top" : 5, "left" : 10 },
         "textStyle" : "planetcompaniestitle1",
         "text" : ["lt00004", "currentPlanet"]
       },
@@ -14,19 +14,17 @@
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 10, "left" : 10 },
+          "padding" : { "top" : 5, "left" : 11 },
           "textStyle" : "planetcompaniesmenu1",
           "buttons" : [
             {
-              "elements" : ["technologyfieldstype"],
+              "elements" : "technologyfieldstype",
               "action" : "displayPopupLayerByButton",
-              "actionType" : 1,
               "targetLayer" : 1
             },
             {
-              "elements" : ["technologyfieldstypes"],
+              "elements" : "technologyfieldstypes",
               "action" : "displayPopupLayerByButton",
-              "actionType" : 2,
               "targetLayer" : 2
             }
           ]
