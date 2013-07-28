@@ -18,12 +18,12 @@
           "textStyle" : "planetcompaniesmenu1",
           "buttons" : [
             {
-              "elements" : "technologyfieldstype",
+              "elements" : "technologyfieldsfortype",
               "action" : "displayPopupLayerByButton",
               "targetLayer" : 1
             },
             {
-              "elements" : "technologyfieldstypes",
+              "elements" : "technologyfieldsfortypes",
               "action" : "displayPopupLayerByButton",
               "targetLayer" : 2
             }
@@ -32,11 +32,32 @@
         {
           "location" : "bottom",
           "align" : "right",
-          "padding" : { "bottom" : 10, "right" : 10 },
+          "padding" : { "bottom" : 0, "right" : 5 },
           "textStyle" : "planetcompaniesmenu1",
           "buttons" : [ { "text" : "lt00005", "action" : "displayPopupClose" } ]
         }
       ]
+    },
+    {
+      "border" : { "size" : 2, "color" : "0xFF0000" },
+      "menus" : [
+        {
+          "location" : "top",
+          "align" : "left",
+          "padding" : { "top" : 5, "left" : 11 },
+          "textStyle" : "planetcompaniesmenu1",
+          "buttons" : [
+            {
+              "elements" : "technologyfieldtypes",
+              "action" : "displayPopupLayerByButton",
+              "targetLayer" : 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "border" : { "size" : 2, "color" : "0xFF0000" }
     }
   ]
 }
