@@ -19,12 +19,12 @@
           "buttons" : [
             {
               "elements" : "technologyfieldsfortype",
-              "action" : "displayPopupLayerByButton",
+              "action" : "displayWindowLayerByButton",
               "targetLayer" : 1
             },
             {
               "elements" : "technologyfieldsfortypes",
-              "action" : "displayPopupLayerByButton",
+              "action" : "displayWindowLayerByButton",
               "targetLayer" : 2
             }
           ]
@@ -34,7 +34,7 @@
           "align" : "right",
           "padding" : { "bottom" : 0, "right" : 5 },
           "textStyle" : "planetcompaniesmenu1",
-          "buttons" : [ { "text" : "lt00005", "action" : "displayPopupClose" } ]
+          "buttons" : [ { "text" : "lt00005", "action" : "displayWindowClose" } ]
         }
       ]
     },
@@ -49,7 +49,7 @@
           "buttons" : [
             {
               "elements" : "technologyfieldtypes",
-              "action" : "displayPopupLayerByButton",
+              "action" : "displayWindowLayerByButton",
               "targetLayer" : 2
             }
           ]
