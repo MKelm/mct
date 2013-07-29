@@ -9,7 +9,7 @@
         "align" : "left",
         "padding" : { "top" : 5, "left" : 10 },
         "textStyle" : "planetcompaniestitle1",
-        "text" : ["lt00004", "currentPlanet"]
+        "text" : ["lt.1.2.1", "currentPlanet"]
       },
       "menus" : [
         {
@@ -35,7 +35,7 @@
           "align" : "right",
           "padding" : { "bottom" : 0, "right" : 5 },
           "textStyle" : "planetcompaniesmenu1",
-          "buttons" : [ { "text" : "lt00005", "action" : "displayWindowClose" } ]
+          "buttons" : [ { "text" : "lt.1.2.2", "action" : "displayWindowClose" } ]
         }
       ]
     },
@@ -46,7 +46,7 @@
         "align" : "left",
         "padding" : { "top" : 5, "left" : 10 },
         "textStyle" : "planetcompaniesmenu1",
-        "text" : ["lt00004", "currentPlanet"]
+        "text" : ["lt.1.2.1", "currentPlanet"]
       },
       "menus" : [
         {

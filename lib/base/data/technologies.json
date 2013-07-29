@@ -12,22 +12,22 @@
   },
   "fields" : {
     "hardware" : {
-      "title" : "lt01000",
+      "title" : "lt.2.1",
       "types" : {
         "tel" : {
-          "title" : "lt01010",
+          "title" : "lt.2.1.1",
           "costs" : 0.9
         },
         "net" : {
-          "title" : "lt01011",
+          "title" : "lt.2.1.2",
           "costs" : 0.93
         },
         "com" : {
-          "title" : "lt01012",
+          "title" : "lt.2.1.3",
           "costs" : 0.97
         },
         "sat" : {
-          "title" : "lt01013",
+          "title" : "lt.2.1.4",
           "costs" : 1.0
         }
       },
@@ -37,18 +37,18 @@
       }
     },
     "software" : {
-      "title" : "lt01001",
+      "title" : "lt.2.2",
       "types" : {
         "anl" : {
-          "title" : "lt01020",
+          "title" : "lt.2.2.1",
           "costs" : 0.77
         },
         "sec" : {
-          "title" : "lt01021",
+          "title" : "lt.2.2.2",
           "costs" : 0.82
         },
         "int" : {
-          "title" : "lt01022",
+          "title" : "lt.2.2.3",
           "costs" : 0.85
         }
       },
@@ -58,18 +58,18 @@
       }
     },
     "advertisements" : {
-      "title" : "lt01002",
+      "title" : "lt.2.3",
       "types" : {
         "aco" : {
-          "title" : "lt01030",
+          "title" : "lt.2.3.1",
           "costs" : 0.64
         },
         "vis" : {
-          "title" : "lt01031",
+          "title" : "lt.2.3.2",
           "costs" : 0.67
         },
         "tho" : {
-          "title" : "lt01032",
+          "title" : "lt.2.3.3",
           "costs" : 0.72
         }
       },
@@ -79,18 +79,18 @@
       }
     },
     "drugs" : {
-      "title" : "lt01003",
+      "title" : "lt.2.4",
       "types" : {
         "moo" : {
-          "title" : "lt01040",
+          "title" : "lt.2.4.1",
           "costs" : 0.5
         },
         "hal" : {
-          "title" : "lt01041",
+          "title" : "lt.2.4.2",
           "costs" : 0.54
         },
         "aha" : {
-          "title" : "lt01042",
+          "title" : "lt.2.4.3",
           "costs" : 0.58
         }
       },

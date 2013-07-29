@@ -1,13 +1,13 @@
 {
-	"event" {
-		"id" : 1,
-		"title" : "strike",
-		"desc" : "Oh no!",
-		"trigger" : "eventsLib.justOnce",
-		"effect" : "0",
-		"success" : "mct.game.data.credits+=500",
-		"winmsg" : "Well Done!",
-		"fail" : "0",
-		"failmsg" : "Oh dear..."
-	}
+  "event" : {
+    "id" : 1,
+    "title" : "strike",
+    "desc" : "Oh no!",
+    "trigger" : "eventsLib.justOnce",
+    "effect" : "0",
+    "success" : "mct.game.data.credits+=500",
+    "winmsg" : "Well Done!",
+    "fail" : "0",
+    "failmsg" : "Oh dear..."
+  }
 }
