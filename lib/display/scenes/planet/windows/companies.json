@@ -20,12 +20,12 @@
           "buttons" : [
             {
               "elements" : "technologyfieldsfortype",
-              "action" : "displayWindowLayerByButton",
+              "action" : "displayWindowLayer",
               "targetLayer" : 1
             },
             {
               "elements" : "technologyfieldsfortypes",
-              "action" : "displayWindowLayerByButton",
+              "action" : "displayWindowLayer",
               "targetLayer" : 2
             }
           ]
@@ -50,7 +50,7 @@
           "buttons" : [
             {
               "elements" : "technologyfieldtypes",
-              "action" : "displayWindowLayerByButton",
+              "action" : "displayWindowLayer",
               "targetLayer" : 2
             }
           ]
