@@ -1,6 +1,7 @@
 {
   "layers" : [
     {
+      "visible" : 1,
       "color" : "0xFFFF00",
       "size" : { "width" : 1024, "height" : 600 },
       "border" : { "size" : 4, "color" : "0xFF0000" },
@@ -19,12 +20,12 @@
           "buttons" : [
             {
               "elements" : "technologyfieldsfortype",
-              "action" : "displayWindowLayerByButton",
+              "action" : "displayWindowLayer",
               "targetLayer" : 1
             },
             {
               "elements" : "technologyfieldsfortypes",
-              "action" : "displayWindowLayerByButton",
+              "action" : "displayWindowLayer",
               "targetLayer" : 2
             }
           ]
@@ -39,7 +40,14 @@
       ]
     },
     {
+      "color" : "0xFFFF00",
       "border" : { "size" : 2, "color" : "0xFF0000" },
+      "title" : {
+        "align" : "left",
+        "padding" : { "top" : 5, "left" : 10 },
+        "textStyle" : "planetcompaniesmenu1",
+        "text" : ["lt00004", "currentPlanet"]
+      },
       "menus" : [
         {
           "location" : "top",
@@ -49,7 +57,7 @@
           "buttons" : [
             {
               "elements" : "technologyfieldtypes",
-              "action" : "displayWindowLayerByButton",
+              "action" : "displayWindowLayer",
               "targetLayer" : 2
             }
           ]
@@ -57,6 +65,7 @@
       ]
     },
     {
+      "color" : "0xFFFF00",
       "border" : { "size" : 2, "color" : "0xFF0000" }
     }
   ]
