@@ -1,6 +1,7 @@
 {
   "layers" : [
     {
+      "visible" : 1,
       "color" : "0xFFFF00",
       "size" : { "width" : 1024, "height" : 600 },
       "border" : { "size" : 4, "color" : "0xFF0000" },
