@@ -42,12 +42,6 @@
     {
       "color" : "0xFFFF00",
       "border" : { "size" : 2, "color" : "0xFF0000" },
-      "title" : {
-        "align" : "left",
-        "padding" : { "top" : 5, "left" : 10 },
-        "textStyle" : "planetcompaniesmenu1",
-        "text" : ["lt.1.2.1", "currentPlanet"]
-      },
       "menus" : [
         {
           "location" : "top",
