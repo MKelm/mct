@@ -1,0 +1,21 @@
+{
+  "meta" : {
+    "music" : {
+      "theme" : {
+        "default" : ["mu.1"],
+        "investments" : ["mu.1"],
+        "production" : ["mu.1"],
+        "research" : ["mu.1"],
+        "trade" : ["mu.1"],
+        "politics" : ["mu.1"],
+        "mafia" : ["mu.1"]
+      }
+    }
+  },
+  "effects" : {
+    "ef.click1" : "ef_click1.ogg"
+  },
+  "music" : {
+    "mu.1" : "Amusia - Orbit (Awakening).ogg"
+  }
+}
