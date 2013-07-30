@@ -101,8 +101,10 @@
                }
                elemCount++;
              }
-
           });
+          if (currentFrame != null) {
+            frames.push(currentFrame);
+          }
 
           var out = '{ "meta": {';
 
