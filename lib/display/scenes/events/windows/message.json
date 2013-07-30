@@ -26,32 +26,24 @@
           "align" : "left",
           "padding" : { "top" : 5, "left" : 11 },
           "textStyle" : "planetcompaniesmenu1",
-          "text" : "dynEventDescription",
-          "textLineLimit" : 100
+          "textLineLength" : 50,
+          "text" : "dynEventDescription"
         },
         {
           "location" : "top",
           "align" : "left",
           "padding" : { "top" : 5, "left" : 11 },
           "textStyle" : "planetcompaniesmenu1",
-          "text" : "dynEventDescription",
-          "textLineLimit" : 100
+          "textLineLength" : 50,
+          "text" : "dynEventWinMessage"
         },
         {
           "location" : "top",
           "align" : "left",
           "padding" : { "top" : 5, "left" : 11 },
           "textStyle" : "planetcompaniesmenu1",
-          "text" : "dynEventWinMessage",
-          "textLineLimit" : 100
-        },
-        {
-          "location" : "top",
-          "align" : "left",
-          "padding" : { "top" : 5, "left" : 11 },
-          "textStyle" : "planetcompaniesmenu1",
-          "text" : "dynEventFailMessage",
-          "textLineLimit" : 100
+          "textLineLength" : 50,
+          "text" : "dynEventFailMessage"
         }
       ]
     }
