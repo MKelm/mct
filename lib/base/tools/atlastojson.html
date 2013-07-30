@@ -35,8 +35,9 @@
 </head>
 <body>
     <strong>convert spine atlas files to texture packer json files, by <a href="https://github.com/MKelm/mct" />Martin Kelm</a></strong><br />
-    <strong>sprite sheet width:</strong><input type="text" id="ssw" /><br />
-    <strong>sprite sheet height:</strong><input type="text" id="ssh" /><br />
+    <strong>external spritesheet:</strong><input type="text" id="exs" /><br />
+    <strong>spritesheet width:</strong><input type="text" id="ssw" /><br />
+    <strong>spritesheet height:</strong><input type="text" id="ssh" /><br />
     <strong>altas input:</strong><br />
     <textarea id="ai"> </textarea>
     <hr />
@@ -44,11 +45,20 @@
     <textarea id="jo">...</textarea>
     <script language="javascript">
       $("#ai").bind('paste', function () {
+        var image = "";
+        var w = $('#ssw').val();
+        var h = $('#ssh').val();
+
         setTimeout(function () {
-          var meta = {
+          var meta1 = {
             base : '"app": "http://www.texturepacker.com",'+'"version": "1.0",'+'"scale": 1,'+
               '"size": { "w": ' + $('#ssw').val() + ', "h": ' + $('#ssh').val() + ' },'
           };
+          var meta = [
+            '"app": "http://www.texturepacker.com",',
+            '"version": "1.0",',
+            '"scale": 1,'
+          ];
           var frames = [];
 
           var text = $("#ai").val();
@@ -58,9 +68,10 @@
           $.each(lines, function(n, elem) {
              if ($.trim(elem).length > 0) {
                if (elemCount == 0) {
-                 meta.image = $.trim(elem);
+                 meta.push('"image": "' + $.trim(elem) + '",');
+                 image = $.trim(elem);
                } else if (elemCount == 1) {
-                 meta.format = $.trim(elem).substring(8, $.trim(elem).length);
+                 meta.push('"format": "' + $.trim(elem).substring(8, $.trim(elem).length) + '",');
                }
                if (elemCount > 3) {
                  if ((elemCount - 4) % 7 == 0) {
@@ -106,18 +117,40 @@
             frames.push(currentFrame);
           }
 
-          var out = '{ "meta": {';
-
-          for (var p in meta) {
-            if (p == "base") {
-              out = out + meta[p];
-            } if (p == "image") {
-              out = out + '"image": "' + meta[p] + '",';
-            } if (p == "format") {
-              out = out + '"format": "' + meta[p] + '",';
+          // fallback try to find image and get size
+          if (!w > 0 && !h > 0) {
+            if ($('#exs').val().length > 0) {
+              image = $('#exs').val();
             }
+            var t = 0;
+            var newImg = new Image();
+            function CreateDelegate(contextObject, delegateMethod) {
+              return function() {
+                return delegateMethod.apply(contextObject, arguments);
+              }
+            }
+            function newImgOnLoad() {
+              h = this.height;
+              w = this.width;
+              finalize(w, h, meta, frames)
+            }
+            newImg.onload = CreateDelegate(newImg, newImgOnLoad);
+            newImg.src = image;
+
+          } else {
+            finalize(w, h, meta, frames);
           }
-          out = out.substring(0, out.length - 1) + ' },';
+
+
+        }, 100);
+
+        function finalize(w, h, meta, frames) {
+          meta.push('"size": { "w": ' + w + ', "h": ' + h + ' }');
+          var out = '{ "meta": {';
+          for (var i = 0; i < meta.length; i++) {
+            out += meta[i];
+          }
+          out = out + ' },';
 
           out = out + ' "frames": {';
           for (var i = 0; i < frames.length; i++) {
@@ -134,7 +167,8 @@
           out = out + ' } }';
 
           $('#jo').val(out);
-        }, 100);
+        }
+
       });
     </script>
 </body>
