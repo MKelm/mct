@@ -8,7 +8,7 @@
       "title" : {
         "align" : "left",
         "padding" : { "top" : 5, "left" : 10 },
-        "textStyle" : "planetcompaniestitle1",
+        "textStyle" : "eventtitle1",
         "text" : "dynEventTitle"
       },
       "menus" : [
@@ -16,7 +16,7 @@
           "location" : "bottom",
           "align" : "right",
           "padding" : { "bottom" : 0, "right" : 5 },
-          "textStyle" : "planetcompaniesmenu1",
+          "textStyle" : "eventtitle1",
           "buttons" : [ { "text" : "lt.1.2.2", "action" : "displayWindowClose" } ]
         }
       ],
@@ -24,24 +24,24 @@
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 5, "left" : 11 },
-          "textStyle" : "planetcompaniesmenu1",
+          "padding" : { "top" : 10, "left" : 11 },
+          "textStyle" : "eventdescription1",
           "textLineLength" : 50,
           "text" : "dynEventDescription"
         },
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 5, "left" : 11 },
-          "textStyle" : "planetcompaniesmenu1",
+          "padding" : { "top" : 15, "left" : 11 },
+          "textStyle" : "eventwinmessage1",
           "textLineLength" : 50,
           "text" : "dynEventWinMessage"
         },
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 5, "left" : 11 },
-          "textStyle" : "planetcompaniesmenu1",
+          "padding" : { "top" : 15, "left" : 11 },
+          "textStyle" : "eventfailmessage1",
           "textLineLength" : 50,
           "text" : "dynEventFailMessage"
         }
