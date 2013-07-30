@@ -1,0 +1,59 @@
+{
+  "layers" : [
+    {
+      "visible" : 1,
+      "color" : "0xFFFF00",
+      "size" : { "width" : 600, "height" : 400 },
+      "border" : { "size" : 4, "color" : "0xFF0000" },
+      "title" : {
+        "align" : "left",
+        "padding" : { "top" : 5, "left" : 10 },
+        "textStyle" : "planetcompaniestitle1",
+        "text" : "dynEventTitle"
+      },
+      "menus" : [
+        {
+          "location" : "bottom",
+          "align" : "right",
+          "padding" : { "bottom" : 0, "right" : 5 },
+          "textStyle" : "planetcompaniesmenu1",
+          "buttons" : [ { "text" : "lt.1.2.2", "action" : "displayWindowClose" } ]
+        }
+      ],
+      "contents" : [
+        {
+          "location" : "top",
+          "align" : "left",
+          "padding" : { "top" : 5, "left" : 11 },
+          "textStyle" : "planetcompaniesmenu1",
+          "text" : "dynEventDescription",
+          "textLineLimit" : 100
+        },
+        {
+          "location" : "top",
+          "align" : "left",
+          "padding" : { "top" : 5, "left" : 11 },
+          "textStyle" : "planetcompaniesmenu1",
+          "text" : "dynEventDescription",
+          "textLineLimit" : 100
+        },
+        {
+          "location" : "top",
+          "align" : "left",
+          "padding" : { "top" : 5, "left" : 11 },
+          "textStyle" : "planetcompaniesmenu1",
+          "text" : "dynEventWinMessage",
+          "textLineLimit" : 100
+        },
+        {
+          "location" : "top",
+          "align" : "left",
+          "padding" : { "top" : 5, "left" : 11 },
+          "textStyle" : "planetcompaniesmenu1",
+          "text" : "dynEventFailMessage",
+          "textLineLimit" : 100
+        }
+      ]
+    }
+  ]
+}
