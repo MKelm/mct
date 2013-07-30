@@ -13,7 +13,8 @@
     }
   },
   "effects" : {
-    "ef.click1" : "ef_click1.ogg"
+    "ef.click1" : "ef_click1.ogg",
+    "ef.click2" : "ef_click2.ogg"
   },
   "music" : {
     "mu.1" : "Amusia - Orbit (Awakening).ogg"
