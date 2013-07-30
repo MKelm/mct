@@ -1,0 +1,33 @@
+
+gfx.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+blank
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+mct_logo
+  rotate: false
+  xy: 1003, 585
+  size: 492, 419
+  orig: 512, 512
+  offset: 20, 23
+  index: -1
+mct_menu_button
+  rotate: false
+  xy: 1003, 483
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+mct_planet
+  rotate: false
+  xy: 1, 4
+  size: 1000, 1000
+  orig: 1000, 1000
+  offset: 0, 0
+  index: -1
