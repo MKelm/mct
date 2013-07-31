@@ -9,7 +9,7 @@ Thanks to the following GitHub.com projects:
 - [pixi.js](https://github.com/GoodBoyDigital/pixi.js) (Library for 2D WebGL/Canvas graphics)
 - [tween.js](https://github.com/sole/tween.js) (Library for tween animations)
 
-The [wiki](https://github.com/MKelm/mct/wiki) contains more information about the game and free job positions.
+The [wiki](https://github.com/mctteam/mct/wiki) contains more information about the game and free job positions.
 
 Game profiles:
 - [Steam Greenlight](http://goo.gl/GrkRGg)
@@ -17,4 +17,4 @@ Game profiles:
 - [Facebook](http://goo.gl/OYgI10)
 - [Twitter](http://goo.gl/KEebl2)
 
-Notes: More about license usage in MCT [here](https://github.com/MKelm/mct/wiki/License)
+Notes: More about license usage in MCT [here](https://github.com/mctteam/mct/wiki/License)

@@ -5,7 +5,7 @@ The build number depends on the current git commits count.
 [linux] "git log | grep 'Date' | wc -l" = build number
 
 All release versions with build number:
-https://github.com/MKelm/mct/releases
+https://github.com/mctteam/mct/releases
 
 node-webkit
 0.6.2 - 2013-07-08
