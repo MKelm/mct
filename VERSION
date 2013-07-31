@@ -10,8 +10,12 @@ https://github.com/MKelm/mct/releases
 node-webkit
 0.6.2 - 2013-07-08
 
-pixi.js
-1.3.0 - 2013-07-24
-
 jQuery
 2.0.3 - 2013-07-03
+
+pixi.js
+custom dev build - 2013-07-30
+
+tween.js
+dev build - 2013-06-04
+
