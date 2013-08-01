@@ -60,7 +60,17 @@
     },
     {
       "color" : "0xFFFF00",
-      "border" : { "size" : 2, "color" : "0xFF0000" }
+      "border" : { "size" : 2, "color" : "0xFF0000" },
+      "contents" : [
+        {
+          "location" : "top",
+          "align" : "left",
+          "padding" : { "top" : 5, "left" : 5 },
+          "textStyle" : "planetcompanieslist1",
+          "elements" : "technologycompanies",
+          "columns" : 3
+        }
+      ]
     }
   ]
 }
