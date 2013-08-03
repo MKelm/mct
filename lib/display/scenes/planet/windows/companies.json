@@ -3,7 +3,7 @@
     {
       "visible" : 1,
       "color" : "0xFFFF00",
-      "size" : { "width" : 1024, "height" : 600 },
+      "size" : { "width" : 800, "height" : 400 },
       "border" : { "size" : 4, "color" : "0xFF0000" },
       "title" : {
         "align" : "left",
@@ -65,10 +65,10 @@
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 5, "left" : 5 },
+          "padding" : { "top" : 5, "left" : 8 },
           "textStyle" : "planetcompanieslist1",
           "elements" : "technologycompanies",
-          "maxListSize" : [3, 19]
+          "maxListSize" : [8, 10]
         }
       ]
     },
@@ -79,10 +79,10 @@
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 5, "left" : 5 },
+          "padding" : { "top" : 5, "left" : 8 },
           "textStyle" : "planetcompanieslist1",
           "elements" : "technologycompanies",
-          "maxListSize" : [3, 21]
+          "maxListSize" : [8, 10]
         }
       ]
     }
