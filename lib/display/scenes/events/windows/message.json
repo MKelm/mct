@@ -34,7 +34,7 @@
           "align" : "left",
           "padding" : { "top" : 15, "left" : 11 },
           "textStyle" : "eventwinmessage1",
-          "textLineLength" : 70,
+          "textLineLength" : 60,
           "text" : "dynEventWinMessage"
         },
         {
@@ -42,7 +42,7 @@
           "align" : "left",
           "padding" : { "top" : 15, "left" : 11 },
           "textStyle" : "eventfailmessage1",
-          "textLineLength" : 70,
+          "textLineLength" : 60,
           "text" : "dynEventFailMessage"
         }
       ]
