@@ -7,15 +7,10 @@ The build number depends on the current git commits count.
 All release versions with build number:
 https://github.com/mctteam/mct/releases
 
-node-webkit
-0.6.2 - 2013-07-08
-
-jQuery
-2.0.3 - 2013-07-03
-
-pixi.js
-custom dev build - 2013-07-30
-
-tween.js
-dev build - 2013-06-04
+libraries/inclusions
+- node-webkit (0.6.2, 2013-07-08)
+- jQuery (2.0.3 - 2013-07-03
+- pixi.js (custom dev build - 2013-07-30)
+- tween.js (dev build - 2013-06-04)
+- wPaint (1.14.0 2013-07-14)
 

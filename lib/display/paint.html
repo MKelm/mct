@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MCT Paint</title>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="../external/jquery.js"></script>
+  <script type="text/javascript" src="../external/wpaint/inc/jquery.ui.core.min.js"></script>
+  <script type="text/javascript" src="../external/wpaint/inc/jquery.ui.widget.min.js"></script>
+  <script type="text/javascript" src="../external/wpaint/inc/jquery.ui.mouse.min.js"></script>
+  <script type="text/javascript" src="../external/wpaint/inc/jquery.ui.draggable.min.js"></script>
+
+  <!-- wColorPicker -->
+  <link rel="Stylesheet" type="text/css" href="../external/wpaint/inc/wColorPicker.css" />
+  <script type="text/javascript" src="../external/wpaint/inc/wColorPicker.js"></script>
+
+  <!-- wPaint -->
+  <link rel="Stylesheet" type="text/css" href="../external/wpaint/wPaint.css" />
+  <script type="text/javascript" src="../external/wpaint/wPaint.js"></script>
+
+  <style>
+    body, html{margin:0px;}
+  </style>
+
+  <script type="text/javascript">
+    $(window).resize(function()
+    {
+      var width = 450 || $(window).width();
+      var height = 450 || $(window).height();
+
+      $('#wPaint').css({
+        width: width,
+        height: height
+      });
+
+      var wp = $("#wPaint").data('_wPaint');
+
+      // var imageData = $("#wPaint").wPaint("image"); // if you want to maintain the image after resizing the canvas
+
+      $(wp.canvas).attr('width', width + 'px').attr('height', height + 'px');
+
+      //$("#wPaint").wPaint("image", imageData);
+    });
+
+    function createUUID() {
+      // http://www.ietf.org/rfc/rfc4122.txt
+      var s = [];
+      var hexDigits = "0123456789abcdef";
+      for (var i = 0; i < 36; i++) {
+          s[i] = hexDigits.substr(Math.floor(Math.random() * 0x10), 1);
+      }
+      s[14] = "4";  // bits 12-15 of the time_hi_and_version field to 0010
+      s[19] = hexDigits.substr((s[19] & 0x3) | 0x8, 1);  // bits 6-7 of the clock_seq_hi_and_reserved to 01
+      s[8] = s[13] = s[18] = s[23] = "-";
+
+      var uuid = s.join("");
+      return uuid;
+    }
+
+    function saveImage() {
+      var guid = createUUID();
+      var base64Data = $('#wPaint').wPaint('image').replace(/^data:image\/png;base64,/,"");
+      require("fs").writeFile("./lib/display/gfx-generated/" + guid + ".png", base64Data, 'base64', function(err) {
+        console.log(err);
+      });
+      return false;
+    }
+
+    $(document).ready(function(){ $(window).resize(); });
+  </script>
+</head>
+<body>
+  <div id="wPaint" style="position:relative; width:200px; height:200px; background:#D4D4D4; border: 1px solid black;"></div>
+
+
+  <script>
+    $("#wPaint").wPaint({ menuOffsetX: 2, menuOffsetY: 455 });
+  </script>
+  <br /><br /><br />
+  <a href="#" onclick="saveImage();">Save image</a>
+</body>
+</html>
