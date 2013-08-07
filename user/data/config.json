@@ -1,5 +1,6 @@
 {
   "language" : "en-US",
+  "fps" : 5,
   "audio" : {
     "channels" : {
       "amount" : 16
