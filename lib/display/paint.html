@@ -59,9 +59,10 @@
     }
 
     function saveImage() {
+      // todo: update e.g. user products.json file
       var guid = createUUID();
       var base64Data = $('#wPaint').wPaint('image').replace(/^data:image\/png;base64,/,"");
-      require("fs").writeFile("./lib/display/gfx-generated/" + guid + ".png", base64Data, 'base64', function(err) {
+      require("fs").writeFile("./user/data/gfx/" + guid + ".png", base64Data, 'base64', function(err) {
         console.log(err);
       });
       return false;
