@@ -1,0 +1,7 @@
+{
+  "textures" : {
+    "blank" : { "scale" : { "x": 1.0, "y": 1.0 } },
+    "mct_logo" : { "scale" : { "x": 1.0, "y": 1.0 }, "anchor": { "x": 0.5, "y": "0.5" } },
+    "mct_menu_button" : { "scale" : { "x": 1.0, "y": 1.0 }, "anchor": { "x": 0.5, "y": "0" } }
+  }
+}
