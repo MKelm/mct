@@ -2,6 +2,11 @@
   "textures" : {
     "blank" : { "scale" : { "x": 1.0, "y": 1.0 } },
     "mct_logo" : { "scale" : { "x": 1.0, "y": 1.0 }, "anchor": { "x": 0.5, "y": "0.5" } },
-    "mct_menu_button" : { "scale" : { "x": 1.0, "y": 1.0 }, "anchor": { "x": 0.5, "y": "0" } }
+    "mct_menu_button" : { "scale" : { "x": 1.0, "y": 1.0 }, "anchor": { "x": 0.5, "y": "0" } },
+    "mct_planet" : { "scale" : { "x": 1, "y": 1 }, "anchor": { "x": 0.5, "y": "0.5" } },
+    "mct_planet_grey" : { "scale" : { "x": 1, "y": 1 }, "anchor": { "x": 0.5, "y": "0.5" } },
+    "mct_planet_layer_red" : { "scale" : { "x": 1, "y": 1 }, "anchor": { "x": 0.5, "y": "0.5" } },
+    "mct_planet_layer_green" : { "scale" : { "x": 1, "y": 1 }, "anchor": { "x": 0.5, "y": "0.5" } },
+    "mct_planet_layer_blue" : { "scale" : { "x": 1, "y": 1 }, "anchor": { "x": 0.5, "y": "0.5" } }
   }
 }

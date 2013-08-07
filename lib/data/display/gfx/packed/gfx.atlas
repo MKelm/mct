@@ -10,30 +10,63 @@ blank
   orig: 1, 1
   offset: 0, 0
   index: -1
-investments_center
+mct_planet
   rotate: false
-  xy: 1004, 158
+  xy: 2, 1007
+  size: 1000, 1000
+  orig: 1000, 1000
+  offset: 0, 0
+  index: -1
+mct_planet_grey
+  rotate: false
+  xy: 2, 5
+  size: 1000, 1000
+  orig: 1000, 1000
+  offset: 0, 0
+  index: -1
+mct_planet_layer_blue
+  rotate: false
+  xy: 1004, 1007
+  size: 1000, 1000
+  orig: 1000, 1000
+  offset: 0, 0
+  index: -1
+mct_planet_layer_green
+  rotate: false
+  xy: 1004, 5
+  size: 1000, 1000
+  orig: 1000, 1000
+  offset: 0, 0
+  index: -1
+
+gfx2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+building_investments_center
+  rotate: false
+  xy: 1004, 155
   size: 250, 333
   orig: 250, 333
   offset: 0, 0
   index: -1
 mct_logo
   rotate: false
-  xy: 1004, 493
+  xy: 1004, 490
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 mct_menu_button
   rotate: false
-  xy: 1518, 905
+  xy: 1518, 902
   size: 200, 100
   orig: 200, 100
   offset: 0, 0
   index: -1
-mct_planet
+mct_planet_layer_red
   rotate: false
-  xy: 2, 5
+  xy: 2, 2
   size: 1000, 1000
   orig: 1000, 1000
   offset: 0, 0
