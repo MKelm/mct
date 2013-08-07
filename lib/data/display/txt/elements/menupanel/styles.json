@@ -1,8 +1,5 @@
 {
   "gametitle1" : [ 80, "Arial", "red" ],
   "menubutton1" : [ 50, "Arial", "red" ],
-  "eventtitle1" : [ 30, "Arial", "394A95" ],
-  "eventdescription1" : [ 25, "Arial", "394A95" ],
-  "eventwinmessage1" : [20, "Arial", "34A835" ],
-  "eventfailmessage1" : [20, "Arial", "DC292D" ]
+  "externals" : [ "event" ]
 }
