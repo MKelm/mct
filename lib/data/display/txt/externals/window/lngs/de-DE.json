@@ -1,3 +1,4 @@
 {
-  "lt.windowClose" : "Schließen"
+  "lt.windowClose" : "Schließen",
+  "lt.windowLoading" : "Lade ..."
 }
