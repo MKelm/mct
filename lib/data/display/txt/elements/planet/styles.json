@@ -1,0 +1,10 @@
+{
+  "planetcompaniestitle1" : [ 30, "Arial", "blue" ],
+  "planetcompaniesmenu1" : [ 25, "Arial", "blue" ],
+  "planetcompaniesmenu2" : [ 22.5, "Arial", "blue" ],
+  "planetcompanieslist1" : [ 20, "Arial", "blue" ],
+  "eventtitle1" : [ 30, "Arial", "394A95" ],
+  "eventdescription1" : [ 25, "Arial", "394A95" ],
+  "eventwinmessage1" : [20, "Arial", "34A835" ],
+  "eventfailmessage1" : [20, "Arial", "DC292D" ]
+}
