@@ -1,9 +1,4 @@
 {
-  "lt.1.1.1" : "Mass Control Tycoon",
-  "lt.1.1.2" : "Start",
-  "lt.1.1.3" : "Beenden",
-  "lt.1.2.1" : "Firmen auf",
-  "lt.1.2.2" : "Schließen",
   "lt.2.1" : "Hardware",
   "lt.2.2" : "Software",
   "lt.2.3" : "Werbung",
@@ -20,8 +15,5 @@
   "lt.2.3.3" : "Gedanken",
   "lt.2.4.1" : "Stimmung",
   "lt.2.4.2" : "Halluzinationen",
-  "lt.2.4.3" : "Akustische Halluz.",
-  "lt.survey.bugs" : "Umfrage: Mass Control Tycoon Fehler",
-  "lt.survey.impressions" : "Umfrage: Mass Control Tycoon Eindrücke",
-  "lt.survey.suggestions" : "Umfrage: Mass Control Tycoon Vorschläge"
+  "lt.2.4.3" : "Akustische Halluz."
 }
