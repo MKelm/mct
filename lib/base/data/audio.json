@@ -1,7 +1,7 @@
 {
   "meta" : {
     "channels" : {
-      amount: 16
+      "amount": 16
     },
     "active" : {
       "music" : 1,
