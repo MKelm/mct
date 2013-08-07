@@ -1,10 +1,10 @@
 ﻿{
   "name": "Mass Control Tycoon",
-  "main": "./lib/display/default.html",
+  "main": "./lib/mct.html",
   "window":{
-    "toolbar":false,
-    "icon":"./lib/display/gfx/logo.png",
-    "fullscreen":true,
+    "toolbar":true,
+    "icon":"",
+    "fullscreen":false,
     "frame":true,
     "min_width":1024,
     "min_height":768
