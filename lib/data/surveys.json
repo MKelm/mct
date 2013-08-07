@@ -1,0 +1,17 @@
+{
+  "bugs" : {
+    "hotkey" : 113,
+    "url" : "http://mct.shrt.ws/surveys/index.php/623132/lang-en",
+    "autofill" : [10, 11]
+  },
+  "impressions" : {
+    "hotkey" : 114,
+    "url" : "http://mct.shrt.ws/surveys/index.php/642216/lang-en",
+    "autofill" : [12, 13]
+  },
+  "suggestions" : {
+    "hotkey" : 115,
+    "url" : "http://mct.shrt.ws/surveys/index.php/933278/lang-en",
+    "autofill" : [20, 21]
+  }
+}
