@@ -1,0 +1,14 @@
+{
+  "audio" : {
+    "channels" : {
+      "amount" : 16
+    },
+    "music" : {
+      "active" : 1,
+      "playOnStart": 0
+    },
+    "effects" : {
+      "active" : 1
+    }
+  }
+}
