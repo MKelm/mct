@@ -1,2 +1,10 @@
 HASHES
 tests
+bin/linux64/*
+!bin/linux32/DOWNLOAD
+bin/linux64/*
+!bin/linux64/DOWNLOAD
+bin/mac32/*
+!bin/mac32/DOWNLOAD
+bin/win32/*
+!bin/win32/DOWNLOAD
