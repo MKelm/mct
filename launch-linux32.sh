@@ -1,2 +1,3 @@
 #/bin/sh
-./bin/linux32/nw './'
+ABSPATH=$(cd "$(dirname "$0")"; pwd)
+$ABSPATH/bin/linux32/nw $ABSPATH/
