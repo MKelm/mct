@@ -1,0 +1,10 @@
+* text=auto
+*.js text
+*.json text
+*.html text
+*.css text
+*.atlas text
+*.png binary
+*.xcf binary
+*.spine binary
+*.ogg binary
