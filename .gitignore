@@ -8,3 +8,5 @@ bin/mac32/*
 !bin/mac32/DOWNLOAD
 bin/win32/*
 !bin/win32/DOWNLOAD
+bin/compiler/*
+!bin/compiler/DOWNLOAD
