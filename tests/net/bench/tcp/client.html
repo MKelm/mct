@@ -1,0 +1,53 @@
+<!--
+ * This file is part of Mass Control Tycoon.
+ * Copyright 2013-2014 by MCT Team (see TEAM file) - All rights reserved.
+ * Project page @ https://github.com/mctteam/mct
+ * Author(s) Martin Kelm
+ *
+ * Mass Control Tycoon is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ *
+ * Mass Control Tycoon is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Mass Control Tycoon. If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Mass Control Tycoon - Net Bench - TCP Client</title>
+    <script language="javascript">
+      var net = require('net');
+
+      var HOST = '127.0.0.1';
+      var PORT = 6969;
+
+      var storage = [];
+      var count = 0;
+      var intNow = (new Date()).getTime();
+
+      var client = new net.Socket();
+      client.connect(PORT, HOST, function() {
+        client.write('request');
+      });
+
+      client.on('data', function(data) {
+        if (count < 1000) {
+          storage.push(JSON.parse(String(data)));
+          client.write('request');
+        } else {
+          console.log((new Date()).getTime() - intNow); // tcp communication
+          client.destroy();
+        }
+        count++;
+      });
+    </script>
+</head>
+<body>
+</body>
+</html>

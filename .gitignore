@@ -1,5 +1,4 @@
 HASHES
-tests
 bin/linux64/*
 !bin/linux32/DOWNLOAD
 bin/linux64/*
