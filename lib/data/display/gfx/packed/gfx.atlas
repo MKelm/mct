@@ -45,3 +45,10 @@ mct_planet_anuka
   orig: 1000, 1000
   offset: 0, 0
   index: -1
+ti_stars
+  rotate: false
+  xy: 1004, 1030
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
