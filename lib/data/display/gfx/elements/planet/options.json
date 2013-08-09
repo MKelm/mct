@@ -1,6 +1,7 @@
 {
   "textures" : {
     "mct_planet" : { "scale" : { "x": 1.0, "y": 1.0 } },
+    "mct_planet_anuka" : { "scale" : { "x": 1.0, "y": 1.0 } },
     "building_investments_center" : { "scale" : { "x": 0.15, "y": 0.1 }, "anchor" : { "x": 0.5, "y": 0.5 } }
   }
 }
