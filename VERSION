@@ -7,6 +7,14 @@ The build number depends on the current git commits count.
 All release versions with build number:
 https://github.com/mctteam/mct/releases
 
+Alternative version identifiers:
+- git describe --abbrev=4 HEAD
+--> will give you a version id depending on the last release id
+--> e.g. v0.0.1-0248-76-gb7004
+- press F2 in the game to open the bugs survey
+--> the auto-fill field "Version" will contain a unique hash
+--> e.g. bdc3708c28958ef816de76c9589163db4cc30c62
+
 libraries/inclusions
 - node-webkit (0.6.2, 2013-07-08 or higher)
 - jQuery (2.0.3 - 2013-07-03
