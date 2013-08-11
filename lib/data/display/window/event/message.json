@@ -1,16 +1,17 @@
 {
-  "layers" : [
+  "zindex" : [
     {
       "visible" : 1,
-      "color" : "0xFFFF00",
-      "size" : { "width" : 600, "height" : 400 },
-      "border" : { "size" : 4, "color" : "0xFF0000" },
-      "title" : {
-        "align" : "left",
-        "padding" : { "top" : 5, "left" : 10 },
-        "textStyle" : "eventtitle1",
-        "text" : "dynEventTitle"
-      },
+      "keepTitlesOnContentChange" : 1,
+      "titles" : [
+        {
+          "align" : "left",
+          "padding" : { "top" : 5, "left" : 10 },
+          "textStyle" : "eventtitle1",
+          "text" : "dynEventTitle"
+        }
+      ],
+      "keepMenusOnContentChange" : 1,
       "menus" : [
         {
           "location" : "bottom",
@@ -26,7 +27,6 @@
           "align" : "left",
           "padding" : { "top" : 10, "left" : 11 },
           "textStyle" : "eventdescription1",
-          "textLineLength" : 55,
           "text" : "dynEventDescription"
         },
         {
@@ -34,7 +34,6 @@
           "align" : "left",
           "padding" : { "top" : 15, "left" : 11 },
           "textStyle" : "eventwinmessage1",
-          "textLineLength" : 60,
           "text" : "dynEventWinMessage"
         },
         {
@@ -42,7 +41,6 @@
           "align" : "left",
           "padding" : { "top" : 15, "left" : 11 },
           "textStyle" : "eventfailmessage1",
-          "textLineLength" : 60,
           "text" : "dynEventFailMessage"
         }
       ]
