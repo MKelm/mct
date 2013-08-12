@@ -9,7 +9,7 @@
       "titles" : [
         {
           "align" : "center",
-          "padding" : { "top" : 5, "left" : 10 },
+          "padding" : { "bottom" : 10 },
           "textStyle" : "eventtitle1",
           "text" : "dynEventTitle"
         }
@@ -19,7 +19,7 @@
         {
           "location" : "bottom",
           "align" : "right",
-          "padding" : { "bottom" : 0, "right" : 5 },
+          "padding" : { "top" : 5 },
           "textStyle" : "eventtitle1",
           "buttons" : [ { "text" : "lt.windowClose", "action" : "windowClose" } ]
         }
@@ -28,21 +28,21 @@
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 10, "left" : 11 },
+          "padding" : { "top" : 5 },
           "textStyle" : "eventdescription1",
           "text" : "dynEventDescription"
         },
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 15, "left" : 11 },
+          "padding" : { "top" : 10 },
           "textStyle" : "eventwinmessage1",
           "text" : "dynEventWinMessage"
         },
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 15, "left" : 11 },
+          "padding" : { "top" : 10 },
           "textStyle" : "eventfailmessage1",
           "text" : "dynEventFailMessage"
         }
