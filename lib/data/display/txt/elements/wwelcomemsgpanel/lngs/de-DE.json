@@ -1,11 +1,11 @@
 {
   "externals" : [ "window" ],
-  "lt.dynEventTitle" : "Welcome to your control center",
-  "lt.dynEventDescription" : ["You are a master of control, you can click on start and quit or ",
-    "press F1 to get a FPS Counter. If you press F2 you can open a survey to report bugs. Or ",
-    "press F3 to report about your impressions. Or you can press F4 to report ",
-    "your suggestions. You can fill out surveys multiple times and it would help to improve the game."],
-  "lt.dynEventWinMessage" : "- You won some experiences in launching a pre-alpha game.",
-  "lt.dynEventFailMessage" : ["- But you failed to react quickly enough to close it, ",
-     "now you are addicted to play more of it."]
+  "lt.dynEventTitle" : "Wilkommen in deinem Kontrollzentrum",
+  "lt.dynEventDescription" : ["Du bist ein Meister der Kontrolle, du kannst auf Start oder Beenden klicken,",
+    "drücke F1 um einen FPS Zähler zu erhalten. Wenn du F2 drückst kannst du eine Umfrage zum Berichten von",
+    "Fehlern öffnen, oder drücke F3 um deine Eindrücke zu berichten. Oder du kannst F4 dürcken um deine",
+    "Vorschläge zu berichten. Umfragen kannst du mehrere Male ausfüllen und es würde helfen das Spiel zu verbessern."],
+  "lt.dynEventWinMessage" : "- Du hast etwas Erfahrung gewonnen beim Starten eines pre-Alpha Spiels.",
+  "lt.dynEventFailMessage" : ["- Aber du hast es nicht geschafft, schnell genug zu reagieren um es zu schließen,",
+    "jetzt bist du süchtig und möchtest mehr davon spielen."]
 }
