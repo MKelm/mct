@@ -1,7 +1,7 @@
 {
   "color" : "F3D131",
   "border" : { "color": "D12F3C", "size": 5 },
-  "padding" : { "top" : 20, "bottom": 15, "left" : 20, "right": 20  },
+  "padding" : { "top" : 25, "bottom": 20, "left" : 25, "right": 25  },
   "layers" : [
     {
       "visible" : 1,
@@ -9,7 +9,7 @@
       "titles" : [
         {
           "align" : "center",
-          "padding" : { "bottom" : 10 },
+          "padding" : { "bottom" : 15 },
           "textStyle" : "eventtitle1",
           "text" : "dynEventTitle"
         }
@@ -19,7 +19,6 @@
         {
           "location" : "bottom",
           "align" : "right",
-          "padding" : { "top" : 5 },
           "textStyle" : "eventtitle1",
           "buttons" : [ { "text" : "lt.windowClose", "action" : "windowClose" } ]
         }
@@ -28,21 +27,21 @@
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 5 },
+          "padding" : { "bottom" : 15 },
           "textStyle" : "eventdescription1",
           "text" : "dynEventDescription"
         },
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 10 },
+          "padding" : { "bottom" : 10 },
           "textStyle" : "eventwinmessage1",
           "text" : "dynEventWinMessage"
         },
         {
           "location" : "top",
           "align" : "left",
-          "padding" : { "top" : 10 },
+          "padding" : { "bottom" : 10 },
           "textStyle" : "eventfailmessage1",
           "text" : "dynEventFailMessage"
         }
