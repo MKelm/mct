@@ -1,6 +1,7 @@
 {
   "color" : "F3D131",
   "border" : { "color": "D12F3C", "size": 5 },
+  "padding" : { "top" : 20, "bottom": 15, "left" : 20, "right": 20  },
   "layers" : [
     {
       "visible" : 1,
