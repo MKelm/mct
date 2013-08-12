@@ -20,14 +20,11 @@
           "textStyle" : "planetcompaniesmenu1",
           "buttons" : [
             {
-              "elements" : "technologyfieldsfortype",
-              "action" : "windowLayerShow",
-              "targetLayer" : 1
-            },
-            {
-              "elements" : "technologyfieldsfortypes",
-              "action" : "windowLayerShow",
-              "targetLayer" : 3
+              "content" : "technologyFieldTitles",
+              "action" : {
+                "withTypes" : [ "windowLayerShow", 1 ],
+                "withoutTypes" : [ "windowLayerShow", 3 ]
+              }
             }
           ]
         },
@@ -48,9 +45,8 @@
           "textStyle" : "planetcompaniesmenu1",
           "buttons" : [
             {
-              "elements" : "technologyfieldtypes",
-              "action" : "displayWindowLayer",
-              "targetLayer" : 2
+              "content" : "technologyFieldTypeTitles",
+              "action" : [ "displayWindowLayer", 2 ]
             }
           ]
         }
