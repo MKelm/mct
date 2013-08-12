@@ -1,5 +1,5 @@
 {
-  "zindex" : [
+  "layers" : [
     {
       "visible" : 1,
       "keepTitlesOnContentChange" : 1,
