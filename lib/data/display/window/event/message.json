@@ -18,7 +18,7 @@
           "align" : "right",
           "padding" : { "bottom" : 0, "right" : 5 },
           "textStyle" : "eventtitle1",
-          "buttons" : [ { "text" : "lt.1.2.2", "action" : "displayWindowClose" } ]
+          "buttons" : [ { "text" : "lt.1.2.2", "action" : "windowClose" } ]
         }
       ],
       "contents" : [
