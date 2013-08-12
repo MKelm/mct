@@ -1,0 +1,36 @@
+{
+  "currentVersion" : 0,
+  "handle" : "anuka",
+  "name" : [
+    { "de-DE" : "Erde", "en-US" : "Earth" },
+    "Anuka"
+  ],
+  "description" : [
+    {
+      "de-DE" : [
+        "Die Erde ist ein Planet auf dem Menschen wohnen,",
+        "viele dieser Menschen wissen nicht das sie täglich",
+        "von fremden Mächten aus dem Weltraum mit weit fortgeschrittenen",
+        "Technologien kontrolliert und manipuliert werden.",
+        "Es ist an der Zeit dies zu ändern, und selbst die Macht",
+        "zu übernhemen."
+      ],
+      "en-US" : [
+        "The earth is a planet where humans live,",
+        "many of these humans do not know that they will be controlled",
+        "by foreign powers from the space with broad advanced technologies.",
+        "It is time to change that and to take the power by your own."
+      ]
+    },
+    {
+      "de-DE" : [
+        "Die Erde wurde von den Anukanisten übernommen und in Anuka umbennant.",
+        "Sie hat sich seit dem zu einer wahren Goldgrube verwandelt."
+      ],
+      "en-US" : [
+        "The earth was taken over by the Anukanists and renamed into Anuka.",
+        "It changed to a real goldmine."
+      ]
+    }
+  ]
+}

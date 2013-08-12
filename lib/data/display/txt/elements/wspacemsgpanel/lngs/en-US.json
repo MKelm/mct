@@ -1,0 +1,10 @@
+{
+  "externals" : [ "window" ],
+  "lt.dynEventTitle" : "Welcome in the space and planets view",
+  "lt.dynEventDescription" : ["The space screen contains a view on the whole space with one planet yet.",
+     "You can zoom in and out by using mouse scroll and you can drag and drop the space map to change the position.",
+     "In the background you see the first planet with some dots. They are part of the grid system like the",
+     "bigger dots from the space grid system around the planet. If you zoom in, you can see the first building.",
+     "The investments center has a click function, but you have no access to further actions yet."],
+  "lt.dynEventWinMessage" : "- You can use the suggestions survey by pressing F3 if you have an idea for the space/planets."
+}
