@@ -4,7 +4,6 @@
   "layers" : [
     {
       "visible" : 1,
-      "keepTitlesOnContentChange" : 1,
       "titles" : [
         {
           "align" : "center",
@@ -13,7 +12,6 @@
           "text" : "dynEventTitle"
         }
       ],
-      "keepMenusOnContentChange" : 1,
       "menus" : [
         {
           "location" : "bottom",
@@ -44,7 +42,11 @@
           "textStyle" : "eventfailmessage1",
           "text" : "dynEventFailMessage"
         }
-      ]
+      ],
+      "layerChange" : {
+        "keepTitles" : 1,
+        "keepMenus" : 1
+      }
     }
   ]
 }
