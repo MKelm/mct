@@ -1,12 +1,13 @@
 {
-  "bgColor" : "F3D131",
+  "color" : "F3D131",
+  "border" : { "color": "D12F3C", "size": 5 },
   "layers" : [
     {
       "visible" : 1,
       "keepTitlesOnContentChange" : 1,
       "titles" : [
         {
-          "align" : "left",
+          "align" : "center",
           "padding" : { "top" : 5, "left" : 10 },
           "textStyle" : "eventtitle1",
           "text" : "dynEventTitle"
