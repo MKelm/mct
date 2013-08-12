@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+canvas { position: fixed; }
+.audio {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  display: hidden;
+  z-index: 1;
+}
