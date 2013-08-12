@@ -1,3 +1,5 @@
-#/bin/bash
-./compile.sh
-bin/linux64/nw --url=file:///home/mkelm/Codes/mct/lib/display/mct.html
+#!/bin/bash
+ABSPATH=$(cd "$(dirname "$0")"; pwd)
+cd $ABSPATH
+$ABSPATH/compile.sh
+$ABSPATH/bin/linux64/nw $ABSPATH/ --url=file://$ABSPATH/lib/mctc.html
