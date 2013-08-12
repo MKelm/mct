@@ -2,6 +2,5 @@
   "planetcompaniestitle1" : [ 30, "Arial", "blue" ],
   "planetcompaniesmenu1" : [ 25, "Arial", "blue" ],
   "planetcompaniesmenu2" : [ 22.5, "Arial", "blue" ],
-  "planetcompanieslist1" : [ 20, "Arial", "blue" ],
-  "externals" : [ "event" ]
+  "planetcompanieslist1" : [ 20, "Arial", "blue" ]
 }

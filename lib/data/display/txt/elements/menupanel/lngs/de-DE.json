@@ -1,5 +1,4 @@
 {
-  "externals" : [ "window" ],
   "lt.menuGameTitle" : "Mass Control Tycoon",
   "lt.menuButtonStart" : "Start",
   "lt.menuButtonQuit" : "Beenden"

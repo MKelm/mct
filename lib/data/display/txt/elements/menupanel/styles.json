@@ -1,5 +1,4 @@
 {
   "gametitle1" : [ 80, "Arial", "red" ],
-  "menubutton1" : [ 50, "Arial", "red" ],
-  "externals" : [ "event" ]
+  "menubutton1" : [ 50, "Arial", "red" ]
 }
