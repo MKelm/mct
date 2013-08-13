@@ -16,7 +16,7 @@
       },
       "drugs" : {
         "amount" : 50,
-        "type" : "combined"
+        "types" : "combined"
       }
     }
   }
