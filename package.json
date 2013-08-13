@@ -10,5 +10,5 @@
     "min_height":768
   },
   "dom_storage_quota":40,
-  "chromium-args":"--disable-device-orientation"
+  "chromium-args":"--disable-device-orientation --enable-accelerated-2d-canvas --ignore-gpu-blacklist"
 }
