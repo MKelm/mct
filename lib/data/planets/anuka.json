@@ -1,7 +1,7 @@
 {
   "currentVersion" : 0,
   "handle" : "anuka",
-  "scale": [1.0, 1.0],
+  "scale": 1.0,
   "name" : [
     { "de-DE" : "Erde", "en-US" : "Earth" },
     "Anuka"
