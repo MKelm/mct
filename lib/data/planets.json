@@ -2,26 +2,11 @@
   "seed" : {
     "companies" : {
       "scale" : 1.0,
-      "hard" : {
-        "amount" : 50,
-        "types" : "each"
-      },
-      "soft" : {
-        "amount" : 50,
-        "types" : "each"
-      },
-      "ads" : {
-        "amount" : 50,
-        "types" : "combined"
-      },
-      "drugs" : {
-        "amount" : 50,
-        "types" : "combined"
-      },
-      "control" : {
-        "amount" : 50,
-        "types" : "research"
-      }
+      "hard" : 50,
+      "soft" : 50,
+      "ads" : 50,
+      "drugs" : 50,
+      "control" : 50
     }
   }
 }

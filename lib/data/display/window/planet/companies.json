@@ -22,8 +22,9 @@
             {
               "content" : "technologyFieldTitles",
               "action" : {
-                "withTypes" : [ "windowLayerShow", 1 ],
-                "withoutTypes" : [ "windowLayerShow", 3 ]
+                "each" : [ "windowLayerShow", 1 ],
+                "combined" : [ "windowLayerShow", 3 ],
+                "research" : [ "windowLayerShow", 3 ]
               }
             }
           ]

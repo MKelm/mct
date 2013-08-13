@@ -30,7 +30,8 @@
           "title" : "lt.tech.hard.sat",
           "costs" : 1.0
         }
-      }
+      },
+      "typesMode" : "each"
     },
     "soft" : {
       "title" : "lt.tech.soft",
@@ -47,7 +48,8 @@
           "title" : "lt.tech.soft.int",
           "costs" : 0.85
         }
-      }
+      },
+      "typesMode" : "each"
     },
     "ads" : {
       "title" : "lt.tech.ads",
@@ -64,7 +66,8 @@
           "title" : "lt.tech.ads.tho",
           "costs" : 0.72
         }
-      }
+      },
+      "typesMode" : "combined"
     },
     "drugs" : {
       "title" : "lt.tech.drugs",
@@ -81,7 +84,12 @@
           "title" : "lt.tech.drugs.aha",
           "costs" : 0.58
         }
-      }
+      },
+      "typesMode" : "combined"
+    },
+    "control" : {
+      "title" : "lt.tech.control",
+      "typesMode" : "research"
     }
   }
 }

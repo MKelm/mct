@@ -1,4 +1,4 @@
 {
-  "externals" : [ "window" ],
+  "externals" : [ "window", "technologies" ],
   "lt.planetCompaniesOn" : "Companies on"
 }
