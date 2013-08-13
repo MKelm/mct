@@ -1,6 +1,6 @@
 {
-  "eventtitle1" : [ 30, "Arial", "394A95", 50 ],
-  "eventdescription1" : [ 25, "Arial", "394A95", 55  ],
-  "eventwinmessage1" : [20, "Arial", "34A835", 70 ],
-  "eventfailmessage1" : [20, "Arial", "DC292D", 70 ]
+  "eventtitle1" : [ 30, "Arial", "394A95", 650 ],
+  "eventdescription1" : [ 25, "Arial", "394A95", 650  ],
+  "eventwinmessage1" : [20, "Arial", "34A835", 650 ],
+  "eventfailmessage1" : [20, "Arial", "DC292D", 650 ]
 }
