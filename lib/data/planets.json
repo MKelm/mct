@@ -17,6 +17,10 @@
       "drugs" : {
         "amount" : 50,
         "types" : "combined"
+      },
+      "control" : {
+        "amount" : 50,
+        "types" : "research"
       }
     }
   }
