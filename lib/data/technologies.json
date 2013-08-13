@@ -11,92 +11,76 @@
     }
   },
   "fields" : {
-    "hardware" : {
-      "title" : "lt.2.1",
+    "hard" : {
+      "title" : "lt.tech.hard",
       "types" : {
         "tel" : {
-          "title" : "lt.2.1.1",
+          "title" : "lt.tech.hard.tel",
           "costs" : 0.9
         },
         "net" : {
-          "title" : "lt.2.1.2",
+          "title" : "lt.tech.hard.net",
           "costs" : 0.93
         },
         "com" : {
-          "title" : "lt.2.1.3",
+          "title" : "lt.tech.hard.com",
           "costs" : 0.97
         },
         "sat" : {
-          "title" : "lt.2.1.4",
+          "title" : "lt.tech.hard.sat",
           "costs" : 1.0
         }
-      },
-      "companies" : {
-        "amount" : 50,
-        "for" : "type"
       }
     },
-    "software" : {
-      "title" : "lt.2.2",
+    "soft" : {
+      "title" : "lt.tech.soft",
       "types" : {
         "anl" : {
-          "title" : "lt.2.2.1",
+          "title" : "lt.tech.soft.anl",
           "costs" : 0.77
         },
         "sec" : {
-          "title" : "lt.2.2.2",
+          "title" : "lt.tech.soft.sec",
           "costs" : 0.82
         },
         "int" : {
-          "title" : "lt.2.2.3",
+          "title" : "lt.tech.soft.int",
           "costs" : 0.85
         }
-      },
-      "companies" : {
-        "amount" : 50,
-        "for" : "type"
       }
     },
-    "advertisements" : {
-      "title" : "lt.2.3",
+    "ads" : {
+      "title" : "lt.tech.ads",
       "types" : {
         "aco" : {
-          "title" : "lt.2.3.1",
+          "title" : "lt.tech.ads.aco",
           "costs" : 0.64
         },
         "vis" : {
-          "title" : "lt.2.3.2",
+          "title" : "lt.tech.ads.vis",
           "costs" : 0.67
         },
         "tho" : {
-          "title" : "lt.2.3.3",
+          "title" : "lt.tech.ads.tho",
           "costs" : 0.72
         }
-      },
-      "companies" : {
-        "amount" : 50,
-        "for" : "types"
       }
     },
     "drugs" : {
-      "title" : "lt.2.4",
+      "title" : "lt.tech.drugs",
       "types" : {
         "moo" : {
-          "title" : "lt.2.4.1",
+          "title" : "lt.tech.drugs.moo",
           "costs" : 0.5
         },
         "hal" : {
-          "title" : "lt.2.4.2",
+          "title" : "lt.tech.drugs.hal",
           "costs" : 0.54
         },
         "aha" : {
-          "title" : "lt.2.4.3",
+          "title" : "lt.tech.drugs.aha",
           "costs" : 0.58
         }
-      },
-      "companies" : {
-        "amount" : 50,
-        "for" : "types"
       }
     }
   }
