@@ -23,8 +23,8 @@
               "content" : "technologyFieldTitles",
               "action" : {
                 "each" : [ "windowLayerShow", 1 ],
-                "combined" : [ "windowLayerShow", 3 ],
-                "research" : [ "windowLayerShow", 3 ]
+                "combined" : [ "windowLayerShow", 2 ],
+                "research" : [ "windowLayerShow", 2 ]
               }
             }
           ]
@@ -59,19 +59,11 @@
           "location" : "top",
           "align" : "left",
           "textStyle" : "planetcompanieslist1",
-          "elements" : "technologycompanies",
-          "maxListSize" : [8, 10]
-        }
-      ]
-    },
-    {
-      "contents" : [
-        {
-          "location" : "top",
-          "align" : "left",
-          "textStyle" : "planetcompanieslist1",
-          "elements" : "technologycompanies",
-          "maxListSize" : [8, 10]
+          "list" : {
+            "content" : "technologyCompanies",
+            "rows" : 10,
+            "cols" : 8
+          }
         }
       ]
     }
