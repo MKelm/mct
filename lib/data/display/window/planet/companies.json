@@ -41,7 +41,7 @@
       "menus" : [
         {
           "location" : "top",
-          "align" : "left",
+          "align" : "center",
           "padding" : { "bottom": 15 },
           "textStyle" : "planetcompaniesmenu1",
           "buttons" : [
