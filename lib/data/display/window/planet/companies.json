@@ -47,7 +47,7 @@
           "buttons" : [
             {
               "content" : "technologyFieldTypeTitles",
-              "action" : [ "displayWindowLayer", 2 ]
+              "action" : [ "windowLayerShow", 2 ]
             }
           ]
         }
@@ -62,7 +62,8 @@
           "list" : {
             "content" : "technologyCompanies",
             "rows" : 10,
-            "cols" : 8
+            "cols" : 8,
+            "action" : [ "windowOpen", "planet/company" ]
           }
         }
       ]
