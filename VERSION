@@ -1,5 +1,5 @@
 mct
-0.0.2-build pre-alpha
+0.0.3-build pre-alpha
 
 The build number depends on the current git commits count.
 [linux] "git log | grep 'Date' | wc -l" = build number
